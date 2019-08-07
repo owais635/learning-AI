@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
+    <script src="sketch.js"></script>
+    <style>
+      p {
+        font-size: 120%;
+        font-family: verdana;
+      }
+      h1 {
+        font-family: verdana;
+      }
+      footer {
+        font-size: 70%;
+      }
+    </style>
+    <title>XOR with TensorFlow.js</title>
+  </head>
+  <body>
+    <h1>XOR with TensorFlow.js</h1>
+    <div id="sketch-holder">
+      <!-- Our sketch will go here! -->
+    </div>
+    <p id="loss-value"></p>
+  </body>
+  <footer>
+    <p>
+      This example uses Adam Optimizer, Fit, Layers, Memory Management, p5js,
+      Predict, Sequential Model, Tensors.
+    </p>
+    <p>
+      Made using
+      <a href="https://shiffman.net/" target="_blank">Daniel Shiffman</a>'s
+      <a href="https://youtu.be/N3ZnNa01BPM" target="_blank">
+        Coding Challenge #106: XOR Problem with TensorFlow.js
+      </a>
+    </p>
+    <p>
+      Note: Might need to refresh a few times to observe the expected result.
+    </p>
+  </footer>
+</html>

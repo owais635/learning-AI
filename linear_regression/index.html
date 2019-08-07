@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
+    <script src="sketch.js"></script>
+    <style>
+      p {
+        font-size: 120%;
+        font-family: verdana;
+      }
+      h1 {
+        font-family: verdana;
+      }
+      footer {
+        font-size: 70%;
+      }
+    </style>
+    <title>Linear Regression with TensorFlow.js</title>
+  </head>
+  <body>
+    <h1>Linear Regression with TensorFlow.js</h1>
+    <div id="sketch-holder">
+      <!-- Our sketch will go here! -->
+    </div>
+    <p id="equation"></p>
+  </body>
+  <footer>
+    <p>
+      This example uses Tensors, Operations, Variables, Memory Management.
+    </p>
+    <p>
+      Made using
+      <a href="https://shiffman.net/" target="_blank">Daniel Shiffman</a>'s
+      <a href="https://youtu.be/dLp10CFIvxI" target="_blank">
+        Coding Challenge #104: Linear Regression with TensorFlow.js
+      </a>
+    </p>
+  </footer>
+</html>
