@@ -1,4 +1,5 @@
 The algorithm was run for about 400 generations, below are the results.
+Note: this simulation was performed without crossover, copying was used instead.
 
 |GenerationNumber|AverageScore|HighestScore|
 |1|398.49666666666667|1394|
