@@ -13,7 +13,7 @@ Credits:
 - [A Game A Day 12 - JavaScript Doodle Jump!](https://youtu.be/CyAOEisE8_k)
 
 ## How well does the AI Perform?
-- While this AI isn't perfect (i.e. doesn't beat the game), it does perform pretty well. The game wan run for about 400 generations, and the score did increase over generations.
+- While this AI isn't perfect (i.e. doesn't beat the game), it does perform pretty well. The game/simulation was run for about 400 generations, and **the score did increase over generations**.
 - Note: This simulation was performed without [crossover](https://en.wikipedia.org/wiki/Crossover_(genetic_algorithm)), instead, a single parent was copied when generating the new population.
 
     ### Average Score over Generations
