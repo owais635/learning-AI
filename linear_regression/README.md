@@ -10,4 +10,4 @@ Technologies used:
 The dots are the user's mouse press events.
 
 Credits:
-- I was able to build this from following [Daniel Shiffman](https://shiffman.net/)'s [Coding Challenge #104: Linear Regression with TensorFlow.js](https://youtu.be/dLp10CFIvxI) tutorial.
+- I was able to build this by following [Daniel Shiffman](https://shiffman.net/)'s [Coding Challenge #104: Linear Regression with TensorFlow.js](https://youtu.be/dLp10CFIvxI) tutorial.
