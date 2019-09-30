@@ -17,6 +17,7 @@ Credits:
 - Note: This simulation was performed without [crossover](https://en.wikipedia.org/wiki/Crossover_(genetic_algorithm)), instead, a single parent was copied when generating the new population.
 
     ### Average Score over Generations
-    
+    ![average_score_graph](training_summary/average_score_graph.png)
     
     ### High Score over Generations
+    ![high_score_graph](training_summary/high_score_graph.png)
