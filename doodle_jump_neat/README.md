@@ -12,12 +12,19 @@ Credits:
 - I was able to build this from following [Daniel Shiffman](https://shiffman.net/)'s [11: Neuroevolution - The Nature of Code](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Yd3975YwxrR0x40XGJ_KGO) for another game Flappy Bird.
 - [A Game A Day 12 - JavaScript Doodle Jump!](https://youtu.be/CyAOEisE8_k)
 
+### How does the Doodle perceive its environment?
+![doodle_perception](training_summary/doodle_perception.png)
+- Each Doodle has 7 sensors at angles 0, π/4, 3π/4, π, 5π/4, 3π/2, 7π/4.
+- Note: In this picture above, only sensors that detect a platform get shown.
+
 ## How well does the AI Perform?
 - While this AI isn't perfect (i.e. doesn't beat the game), it does perform pretty well. The game wan run for about 400 generations, and the score did increase over generations.
 - Note: This simulation was performed without [crossover](https://en.wikipedia.org/wiki/Crossover_(genetic_algorithm)), instead, a single parent was copied when generating the new population.
 
-    ### Average Score over Generations
+    #### Average Score over Generations
     ![average_score_graph](training_summary/average_score_graph.png)
     
-    ### High Score over Generations
+    #### High Score over Generations
     ![high_score_graph](training_summary/high_score_graph.png)
+
+    The complete training log can be found [here](training_summary/trainingLog.txt).
